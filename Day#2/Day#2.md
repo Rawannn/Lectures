@@ -14,14 +14,14 @@
 | الدخول إلى المجلدات                                                                              | cd directoryName                                      | cd directoryName                     |
 | إنشاء ملف نصي فارغ                                                                               | cd > fileName.txt <br>OR <br>type nul >  fileName.txt | touch file.txt                       |
 | عرض محتويات المجلد                                                                               | dir                                                   | ls                                   |
-| عرض جميع محتويات المجلد بما فيها المحتويات المخفية                                               |                                                       | ls -a                                |
+| عرض جميع محتويات المجلد بما فيها المحتويات المخفية                                                |dir /a:h                                                       | ls -a                                |
 | الكتابة في ملف نصي                                                                               | echo My First File >> fileName.txt                    | echo "My First File” >> fileName.txt |
 | عرض محتويات الملف النصي                                                                          | type fileName.txt                                     | cat fileName.txt                     |
 | إزالة أي محتوى على نافذة الأوامر                                                                 | cls                                                   | clear                                |
-| الدخول إلى مجلد المستخدم الحالي                                                                  |                                                       | cd ~                                 |
-| فتح مجلد أو ملف                                                                                  | start                                                 | Open folderName/directoryName        |
-| حذف ملف                                                                                          |                                                       | rm fileName                          |
-| حذف مجلد                                                                                         | rm dir/s                                              | rm -r directoryName                  |
+| الدخول إلى مجلد المستخدم الحالي                                                                  |cd %USERPROFILE%                                                       | cd ~                                 |
+| فتح مجلد أو ملف                                                                                  | start fileName                                                | Open folderName/directoryName        |
+| حذف ملف                                                                                          |del fileName                                                       | rm fileName                          |
+| حذف مجلد                                                                                         | rmdir folder or rd folder                                              | rm -r directoryName                  |
 
 
 
